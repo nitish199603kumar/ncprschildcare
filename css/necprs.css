@@ -1,0 +1,587 @@
+body{
+    font-family: sans-serif;
+    /* margin: 0px;
+    padding: 0px; */
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.home-screen{
+    display: flex;
+    width: 100%;
+    height: 700px;
+}
+.left-home-screen
+{
+    width: 50%;
+    height: auto;
+    background-color: #005b94;
+}
+.right-home-screen
+{
+    width: 50%;
+    height: auto;
+    background-color:white;
+}
+/* home-screen-left started */
+/* ------------------------------------------------------------------------------------------------------ */
+.nav-bar{
+    display: flex;
+    list-style-type: none;
+    color: white;
+    margin: 5px 0px 0px 40px;
+}
+.nav-bar li{
+    padding: 20px;
+    font-weight: bold;
+}
+.left_home_screen_center_div
+{
+    margin-top: 30%; 
+    margin-left:15%;
+    width: 80%;
+    color: white;
+    font-weight: 400;
+
+}
+.left_home_screen_center_div #left_home_screen_center_div_p{
+    margin-top: 20px;
+    margin-left: 4px;
+}
+.left_home_screen_center_div #left_home_screen_center_div_p p
+{
+    padding: 2px;
+    font-size: 18px;
+    line-height: 1;
+}
+#left_home_screen_center_div_submit_button1
+{
+    margin-top: 50px;
+    margin-left: 3px;
+    border: none;   
+    width: 35%;
+    height: 40px;
+    color: #005b94;
+    font-size: medium;
+}
+
+/* Model CSS Started */
+/* The Modal (background) */
+.modal {
+    display: none;/* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1;/* Sit on top */
+    padding-top: 28px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;/* Full width */
+    height: 100%;/* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);/* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);/* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0px ;
+    border: 1px solid #888;
+    border-radius: 4px;
+    width: 40%;
+    height: auto;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-header {
+    background-color: #f4f4fa ;
+    color: white;
+    height: 50px;
+  }
+  .Role_and_Program_Type{
+      color: #333;
+      padding:15px 0px 0px 20px;
+      
+  }
+  .h4{
+    color: #333; 
+    padding:40px 0px 0px 20px;
+  }
+  .radio1{
+    background-color: #f4f4fa ;
+    height: 100px; 
+    color: #000;
+    width: 90%;
+    margin: 20px 0px 0px 20px;
+  }
+  .role-first
+  {
+      padding:20px ;
+  }
+  .role-first b{
+      padding-left: 10px;
+  }
+  .role-first p{
+      padding: 10px 0px 0px 27px;
+  }
+  .role-first a{
+      padding: 5px;
+      text-decoration: none;
+  }
+  .radio2{
+    background-color: #f4f4fa ;
+    height: 100px; 
+    color: #000;
+    width: 90%;
+    margin: 20px 0px 0px 20px;
+  }
+  .role-second
+  {
+    padding:20px ; 
+  }
+  .radio2 .role-second b{
+    padding-left: 10px;
+    padding-bottom: 5px;
+  }
+  .radio2 .role-second p{
+    padding: 10px 0px 0px 27px;
+  }
+  .rapt-footer{
+    /* background-color: #f4f4fa ; */
+    height: 100px; 
+    color: #000;
+    width: 90%;
+    margin: 100px 0px 0px 20px;
+    display: inline-block;
+  }
+
+  .rapt-footer{
+    display: flex;
+  } 
+  .continue{
+      background-color: #005b94;
+      height: 40px;
+      width: 50%;
+      margin-top: auto;
+      margin-bottom: auto;
+      text-align: center;
+      border: none;
+      color: white;
+      font-size: medium;
+
+  }
+  .cancel{
+      background-color:white;
+      height: 40px;
+      width: 50%;
+      margin-top: auto;
+      margin-bottom: auto;
+      text-align: center;
+      color:#005b94 ;
+      font-size: medium;
+      border: none;
+  }
+  /* Modal End ----------home-screen-left -End--------------------------------------------------------------*/
+
+  /* right-side ---------home-screen-right-started--------------------------------------------------------- */
+  .center-div{
+      
+      width: 55%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 18%;
+      /* position: relative; */
+  }
+  .center-div img{
+      height: 38%;
+      width: 75%;
+      /* position: absolute; */
+  }
+  .center-div h3{
+      margin-top: 50px;
+      color: #333;
+  }
+  .email{
+      display: flex;
+      flex-direction: column;
+      margin-top: 30px;
+      line-height: 2;
+      font-size: 16px;
+      
+  }
+  .email input{
+      height:40px ;
+      border: 1px solid #ccc;
+      box-shadow: none;
+  }
+  .password{
+      display: flex;
+      flex-direction: column;
+      line-height: 2;
+      margin-top: 10px;
+      font-size: 16px;
+  }
+  .password input{
+    height:40px ;
+    border: 1px solid #ccc;
+    box-shadow: none; 
+  }
+  .right-home-screen .center-div button{
+      background-color:#005b94 ;
+      color: white;
+      width: 100%;
+      height: 45px;
+      font-size: 16px;
+      margin-top: 10%;
+      cursor: pointer;
+      border: none;
+  }
+  .right-home-screen .center-div .forgot-password{
+      color:#333 ;
+      width: 40%;
+      height: auto;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      margin-left:120px;
+      font-size: medium;
+      margin-top: 30px;
+      background-color: white;
+  }
+  /* home-screen-end------------------------------------------------------------------------------------- */
+
+/* home-screen-second-------------------------started---------------------------------------------------- */
+  .home-screen-second{
+      display: flex;
+      width: 100%;
+      height: 500px;
+  }
+  .home-screen-second .step-up-to-quality{
+    background-color:#f4f4fa;
+    width: 50%; 
+  }
+  .center-content{
+      width: 70%;
+      height: auto;
+      margin-left: 15%;
+      margin-top: 90px;
+      
+  }
+  .center-content h1{
+      color: #333;
+  }
+  .center-content .about-necprs0{
+      margin-top: 20px;
+      color: grey;
+      font-size: 110%;
+      font-weight: 500;
+      line-height: 1.3;
+  }
+  .center-content .about-necprs1{
+      margin-top: 20px;
+      color: gray;
+      font-size: 110%;
+      font-weight: 500;
+      line-height: 1.3;
+
+  }
+  .center-content button{
+      background-color: #005b94;
+      color: white;
+      padding: 15px;
+      width: 70%;
+      border: none;
+      font-size: 15px;
+      font-weight: 400;
+      margin-top: 10%;
+  }
+  .chilcare-img{
+      background-image: url(../assets/img/childcare.jpg);
+      background-position: center;
+      background-size: cover;
+      width: 50%;
+      
+  }
+/* home-screen-second----------------------END---------------------------------------------------- */
+
+/* home-screen-third-----------------------STARTED------------------------------------------------ */
+                                            /* .home-screen-third-left */
+.home-screen-third{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    background-color: white;
+}
+.home-screen-third-left{
+    width: 30%;  
+
+}
+.home-screen-third .right{
+    width: 70%;
+    
+}
+.home-screen-third-left-content{
+    width: 60%;
+    height: auto;
+    margin-left: 25%;
+    margin-top: 50px;
+}
+.home-screen-third-left-content i{
+    font-size: 36px;
+    color: green;
+}
+.find-training{
+    margin-top: 20px;
+}
+.home-screen-third-left-content p{
+    padding-top: 15px;
+    font-weight: 500;
+    color: #333;
+    font-size: large;
+}
+.home-screen-third-left-content button{
+    background-color: #005b94;
+    padding: 10px;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    width: 80%;
+}
+                                        /* .home-screen-third-right  */
+.view_training-calendar{
+    border: 1px solid red;
+    width: 850px;
+    height: 40px;
+    margin: 50px 40px 0px 25px;
+    
+    
+}
+.available-training-and-calendar a{
+    float: right;
+    text-decoration: none;
+    font-size: large;
+}
+.available-training-and-calendar{
+    font-size: x-large;
+    font-weight: 700;
+}
+.training-guidelines{
+    border: 1px solid blue;
+    height: 200px;
+    width: 870px;
+    margin: 40px 40px 0px 25px;
+    display: flex;
+   position: relative; 
+}
+.a{
+    background-color: orange;
+    height: 150px;
+    width: 100px;
+    margin: 10px;
+
+}
+.training-guidelines a{
+    position: absolute;
+}
+.training-guidelines a .next{
+    
+}
+/* ------------------------home-screen-third-----------------------------END------------------------------------------- */
+.home-screen-four{
+    background-color: #f4f4fa;
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.home-screen-four-left{
+    width: 50%;
+}
+.home-screen-four-left-content{
+    width:70%;
+    height: auto;
+    margin-left: 15%;
+    margin-top: 50px;
+}
+.home-screen-four-left-content i{
+    color: green;
+    font-size: 36px;
+    
+}
+.home-screen-four-left-content h1{
+    margin-top: 10px;
+    color: #333;
+}
+.resources-for-users{
+    margin-top: 30px;
+}
+.resources-for-users a{
+    font-size:20px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 2.1;
+    color: #005b94;
+}
+.training-equivalent a{
+    line-height: 1;
+}
+.home-screen-four-right{
+
+    width: 50%;    
+}
+.home-screen-four-right-content{
+
+    width: 60%;
+    height: auto;
+    margin-top: 80px;
+    
+}
+.home-screen-four-right-content i{
+    color: green;
+    font-size: 36px;
+    
+}
+.home-screen-four-right-content h1{
+    margin-top: 10px;
+    color: #333;
+}
+.resources-for-directors{
+    margin-top: 30px;
+
+}
+.resources-for-directors a{
+    font-size:20px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 2.3;
+    color: #005b94;
+}
+.training-equivalent a{
+    line-height: 1;
+}
+.resources-for-trainers{
+    margin-top: 30px;
+    color: #333;
+    font-size:xx-large;
+    font-weight: 700;
+}
+.training-approval{
+    margin-top: 20px;
+}
+/* ---------------------home-screen-four--------END----------------------------------------------------------- */
+.home-screen-five{
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+.home-screen-five-left{
+    background-color: white;
+    width: 30%;
+}
+.home-screen-five-left-content{
+    
+    width: 70%;
+    height: auto;
+    margin-top:50px ;
+    margin-left: 25%;
+}
+.home-screen-five-left-content i{
+    font-size: 40px;
+    color: green;
+}
+.home-screen-five-left-content h2{
+    margin-top: 20px;
+    color: #333;
+}
+.home-screen-five-left-content p{
+    margin-top: 15px;
+    font-size:small;
+    font-weight: 700;
+}
+.home-screen-five-left-content button{
+    width: 70%;
+    margin-top: 20px;
+    border: none;
+    padding: 10px;
+    background-color: #005b94;
+    color: white;
+}
+.home-screen-five-right{
+    background-color: white;
+    width: 70%;
+}
+.videos-and-all-tutorials{
+    
+    width: 90%;
+    height: 7%;
+    margin-top:5%;
+    margin-left: 2%;
+}
+.videos-and-all-tutorials .videos{
+    color: #333;
+    font-weight: 700;
+    font-size: larger;
+}
+.videos-and-all-tutorials  a{
+    float: right;
+    text-decoration: none;
+    font-weight: 700;
+}
+.tutorials-link{
+    
+    width: 95%;
+    height: 60%;
+    margin-top: 2%;
+    margin-left: 1%;
+    display: flex;
+}
+.tutorials-link a{
+    text-decoration: none;
+    width: 19%;
+    height: auto;
+    margin: 1%;
+
+}
+.account-setup{
+    display: inline-block;
+    background-color:#00a6c9;
+    width: 100%;
+    height: 65%;
+    color: white;
+    padding: 5px 0px 0px 6px;
+    border-radius: 5px;
+}
+.account-setup i{
+    color: white;
+    font-size: 40px;
+
+    padding: 30px 50px 0px 50px;
+}
+.account-setup p{
+    padding:15px 10px 0px 25px;
+}
+.creating-a-user-account{
+    font-size: small;
+    font-weight: 700;
+    padding: 10px 0px 0px 0px;
+    color: #333;
+}
+.view{
+    padding-top: 10px;
+    font-weight: 700;
+}
